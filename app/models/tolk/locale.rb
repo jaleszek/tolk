@@ -1,7 +1,7 @@
 module Tolk
   class Locale < ActiveRecord::Base
     set_table_name "tolk_locales"
-
+    # remove to new namespace
     MAPPING = {
       'ar'    => 'Arabic',
       'bs'    => 'Bosnian',
